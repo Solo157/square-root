@@ -2,14 +2,6 @@ package com.square.root;
 
 public class SquareRootService {
 
-    /**
-     * где a,b,c — коэффициенты уравнения ax2+bx+c=0
-     * b2-4ac
-     * @param a
-     * @param b
-     * @param c
-     * @return
-     */
     public double[] solve(double a, double b, double c, double epsilon) {
         if ((a == 0) || Double.isNaN(a) || Double.isNaN(b) || Double.isNaN(c)
                 || Double.isInfinite(a) || Double.isInfinite(b) || Double.isInfinite(c)) {
